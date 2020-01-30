@@ -1,0 +1,8 @@
+﻿eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: httP://eureka5003.com:5003/eureka,http://eureka5001.com:5001/eureka
+  instance:
+    hostname: eureka5002.com #eureka服务端的实例名称
